@@ -1,13 +1,19 @@
-
-.container {
-	width: 960px;
-	margin: auto;
-  padding-top: 5em;
+body {
+  background-image: 
+  url(../images/citipix_skyline.jpg);
+  background-position: center center fixed no-repeat;
+  background-size: cover;
 }
 
 header {
   background: rgba(0,0,0, .5);
   padding: 20px 0;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  padding-top: 5em;
 }
 
 .title {
@@ -24,7 +30,7 @@ header {
 }
 
 #city-type {
-  color: #6b6b6c;
+  color: #6b6b6c ;
   font-size: 38px;
   background: #fff;
   border: 1px solid #111;
@@ -39,7 +45,26 @@ header {
   box-shadow: #111 0 0 20px;
 }
 
-#dropDown {
+/*.dropDown {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  color: #6b6b6c;
+  font-size: 38px;
+  background: #fff;
+  border: 1px solid #111;
+  padding: 0px 30px;
+  display: inline-block;
+  width: 680px;
+  margin-right: 24px;
+  font-family: helvetica, arial, sans-serif;
+  height: 72px;
+  line-height: 74px;
+  vertical-align: middle;
+  box-shadow: #111 0 0 20px;
+}*/
+
+/*.dropDown {
   background: #ffe500;
   color: #000;
   font-size: 38px;
@@ -55,7 +80,8 @@ header {
   box-shadow: #111 0 0 50px;
   font-family: helvetica, arial, sans-serif;
   cursor: pointer;
-}
+}*/
+
 #submit-btn:hover {
   background: #fff600;
 }
@@ -69,10 +95,10 @@ header {
 .la {
   background-image: url(../images/la.jpg);
 }
-.austin {
+.atx {
   background-image: url(../images/austin.jpg);
 }
-.sydney {
+.syd {
   background-image: url(../images/sydney.jpg);
 }
 
